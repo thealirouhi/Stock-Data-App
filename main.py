@@ -12,7 +12,7 @@ st.write("""
 
 tickerSymbol = st.selectbox(
     "Ticker Symbol",
-    ("GOOGL", "AAPL", "ADBE","ABNB","AMZN"),
+    ("GOOGL", "AAPL", "ADBE","AMZN"),
     index=0,
     placeholder="Select ticker symbol...",
 )
