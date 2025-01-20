@@ -24,8 +24,7 @@ endDate = st.date_input("End date", datetime.date(2020, 1, 1),max_value="today")
 tickerData = yf.Ticker(tickerSymbol)
 
 tickerDF = tickerData.history(period="1d", start=startDate,end=endDate)
-st.write("""tickerSymbol""",tickerSymbol
-    )
+
 st.write("""
     ## Closing price
 """
